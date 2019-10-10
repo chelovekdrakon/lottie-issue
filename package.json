@@ -5,7 +5,8 @@
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
-    "start": "react-native start",
+    "start": "yarn && cd ./ios && pod install && cd ../ && yarn haul",
+    "restart": "rm -rf ./node_modules && yarn cache clean && yarn && cd ./ios && pod install && cd ../ && yarn haul",
     "test": "jest",
     "lint": "eslint .",
     "haul": "haul start"
