@@ -54,6 +54,7 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = AwesomeProject/main.m; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* AwesomeProject-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AwesomeProject-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* AwesomeProject-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AwesomeProject-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		321483C12356173E0028F2B0 /* Lottie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Lottie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		354E563A78179D07E826F0C6 /* Pods_AwesomeProject_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomeProject_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A0D422CDDD6AF49E1751E66 /* Pods-AwesomeProject-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeProject-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-AwesomeProject-tvOSTests/Pods-AwesomeProject-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		56BF45C6C40736D51B3D9CFE /* Pods-AwesomeProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeProjectTests.release.xcconfig"; path = "Target Support Files/Pods-AwesomeProjectTests/Pods-AwesomeProjectTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -139,6 +140,7 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				321483C12356173E0028F2B0 /* Lottie.framework */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
 				E6E8E7DD8A05A6C63B7A7C8A /* Pods_AwesomeProject.framework */,
