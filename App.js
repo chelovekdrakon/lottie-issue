@@ -6,15 +6,12 @@ import LottieView from 'lottie-react-native';
 import {Colors} from 'react-native/Libraries/NewAppScreen';
 
 const App = () => (
-  <View style={styles.app}>
-    <Text>Hello</Text>
-    <LottieView 
-      style={styles.lottie}
-      source={require('./animation.json')}
-      autoPlay
-      loop
-    />
-  </View>
+  <LottieView 
+    style={styles.lottie}
+    source={require('./anim.json')}
+    autoPlay
+    loop
+  />
 );
 
 const styles = StyleSheet.create({
