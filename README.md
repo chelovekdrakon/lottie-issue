@@ -8,5 +8,5 @@
  
  2. Launch the app:
     ```sh
-    $ yarn run-ios
+    $ yarn ios
     ```
